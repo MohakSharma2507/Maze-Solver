@@ -1,10 +1,10 @@
-Maze Solver
+#Maze Solver
 
-Overview
+#Overview
 
 Maze Solver is a Python project that uses image processing techniques to solve a maze from an input image. By leveraging the OpenCV library, the program performs a series of operations including thresholding, contour detection, morphological transformations, and masking to identify and highlight the solution path in the maze.
 
-Features
+#Features
 
 Converts input maze images to binary format.
 
@@ -14,7 +14,7 @@ Applies dilation and erosion techniques to refine the maze paths.
 
 Highlights the solution path on the original maze image.
 
-Requirements
+#Requirements
 
 To run this project, you need the following:
 
@@ -24,7 +24,7 @@ OpenCV (cv2)
 
 NumPy
 
-Installation
+#Installation
 
 Clone the repository:
 
@@ -38,7 +38,7 @@ Install the required dependencies:
 
 pip install -r requirements.txt
 
-Usage
+#Usage
 
 Update the filename variable in the script to point to your maze image file:
 
@@ -50,7 +50,7 @@ python maze_solver.py
 
 The program will display intermediate steps in solving the maze and save the processed images in the specified folder.
 
-Steps in Maze Solving
+#Steps in Maze Solving
 
 Binary Conversion:
 Converts the input maze image into a binary image for processing.
@@ -70,7 +70,7 @@ Finds the difference between dilated and eroded images to extract the solution p
 Masking and Path Highlighting:
 Overlays the solution path onto the original maze image.
 
-Output
+#Output
 
 The program saves the following processed images in the specified directory:
 
@@ -88,20 +88,18 @@ Masked Solution Path
 
 Final Solved Maze
 
-Contributing
+#Contributing
 
 Feel free to fork this repository, make improvements, and submit pull requests. Suggestions and issues are welcome!
 
-License
+#License
 
 This project is licensed under the MIT License.
 
-Acknowledgements
+#Acknowledgements
 
 OpenCV for its powerful image processing capabilities.
 
 NumPy for array manipulations.
 
-Contact
 
-For any questions or feedback, please reach out at mohaksharma@example.com.
